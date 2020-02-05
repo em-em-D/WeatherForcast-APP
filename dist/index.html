@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <title>Weather APP</title>
+</head>
+<body>
+    <h2 class="headline">Weather Status</h2>
+    <div id="search">
+        <label for="search city">Search City:</label>
+       <input type="text"  name="city" required>
+        <button class="img">Search</button>
+   </div>
+   <h1 class="h"></h1>
+   <div class="city">
+    <div class="buts">
+        <button class="celsius">°C</button>
+        <button class="faren">°F</button>
+    </div>
+   </div>
+
+<div id="weather">
+        <div class="con-left">
+            <p class="date"></p>
+            <p class="time"></p>
+            <p class="humidity"></p>
+            <p class="pressure"></p>
+            <p class="wind"></p>
+        </div>
+        <div class="con-right">
+            <p class="temprature"></p>
+            <span class="min-max">Min: <span class="mintemp"></span> - Max: <span class="maxtemp"></span></span>
+            <p class="clouds"></p>
+        </div>
+ </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

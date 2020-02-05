@@ -1,3 +1,85 @@
 body{
-    background-color: red;
+    font-size: 32px;
+    background-image: url("../img/st5.jpg");
+    overflow: hidden;
+    height: 50%;
+    color: white;
+    background-size: cover;
+}
+#search{
+    margin-left: 510px;
+    margin-top: 150px;
+    font-size: 39px;
+    font-family: 'Zhi Mang Xing', cursive;
+}
+.h{
+    margin-left: 900px;
+    font-family: 'Zhi Mang Xing', cursive;
+}
+.img{
+    margin-top:15px;
+    font-family: 'Zhi Mang Xing', cursive;
+    padding: 30px 60px;
+    border-radius: 30%;
+    background-color: white;
+    color: orange;
+    font-size: 35px;
+}
+.city{
+    margin-left:955px;
+    margin-top: 50px;
+}
+
+.con-left{
+    float: left;
+    margin-left:580px;
+    margin-top: 10px;
+    font-family: 'Zhi Mang Xing', cursive;
+}
+.con-right{
+    float: right;
+    margin-right: 600px;
+    margin-top: 10px;
+    font-family: 'Zhi Mang Xing', cursive;
+}
+.celsius{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 19px 20px;
+  text-align: center;
+  border-radius: 40px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+.faren{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 19px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40px;
+  display: inline-block;
+  font-size: 18px;
+}
+.headline{
+    margin-left: 910px;
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 50px;
+}
+.min-max{
+    margin-right: 85px;
+    margin-top: 10px;
+    font-family: 'Zhi Mang Xing', cursive;
+}
+input[type=text]{
+    padding:58px 250px;
+    border-radius: 50px;
+    background:rgba(240, 230, 230, 0.2);
+    border:0px solid #dbdbdb;
+    font-size: 45px;
+    font-family: 'Zhi Mang Xing', cursive;
+    color: white;
 }
