@@ -15,6 +15,9 @@ Can be found on: ( Weather-App Project in the Odinproject )
 # Developed by
 Michael Damulak ( github.com/em-em-D )
 
+# clone
+To clone in your local machine using CLI, use git clone(https://github.com/em-em-D/WeatherForcast-APP/tree/featureAppdevelopment_branch)
+
 # Contributing
 Fork it (https://github.com/em-em-D/WeatherForcast-APP)
 Create your feature branch (git checkout -b feature/[choose-a-name])
